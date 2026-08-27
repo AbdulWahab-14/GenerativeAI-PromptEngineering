@@ -38,6 +38,10 @@ Messages to classify:
 10. The package was damaged upon arrival, can I get a refund?
 
 Responses
+<img width="1237" height="231" alt="Responses" src="https://github.com/user-attachments/assets/ac1f4227-1178-4dfa-88c6-87ff4aaa1f85" />
+
+
+Responses
  #	Expected	   Gemini Zero-Shot	    Gemini Few-Shot	     GPT Zero-Shot	     GPT Few-Shot	     Claude Zero-Shot	     Claude Few-Shot
  1	Complaint	   Praise	              Praise	             Complaint	         Complaint	       Complaint	           Complaint
  2	Question	   Question	            Question	           Question	           Question	         Question	             Question
