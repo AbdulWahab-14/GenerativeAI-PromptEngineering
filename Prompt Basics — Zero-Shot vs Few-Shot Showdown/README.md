@@ -41,20 +41,6 @@ Responses
 <img width="1237" height="231" alt="Responses" src="https://github.com/user-attachments/assets/ac1f4227-1178-4dfa-88c6-87ff4aaa1f85" />
 
 
-Responses
- #	Expected	   Gemini Zero-Shot	    Gemini Few-Shot	     GPT Zero-Shot	     GPT Few-Shot	     Claude Zero-Shot	     Claude Few-Shot
- 1	Complaint	   Praise	              Praise	             Complaint	         Complaint	       Complaint	           Complaint
- 2	Question	   Question	            Question	           Question	           Question	         Question	             Question
- 3	Complaint	   Complaint	          Complaint	           Complaint	         Complaint	       Complaint	           Complaint
- 4	Praise	     Praise	              Praise	             Praise	             Praise	           Praise	               Praise
- 5	Question	   Question	            Question	           Question	           Question	         Question	             Question
- 6	Complaint	   Complaint	          Complaint	           Complaint	         Complaint	       Complaint	           Complaint
- 7	Question	   Question	            Question	           Question	           Question	         Praise	               Question
- 8	Question	   Question	            Question	           Question	           Question	         Question	             Question
- 9	Praise	     Praise	              Praise	             Praise	             Praise	           Praise	               Praise
-10  Complaint	   Complaint	          Complaint	           Complaint	         Question	         Complaint	           Complaint
-
-
 Summary: Zero-Shot vs. Few-Shot Prompting
 Zero-Shot 
 Prompting performed well for simple and clear messages, and the models were generally able to classify them correctly. 
