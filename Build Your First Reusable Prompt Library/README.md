@@ -36,7 +36,7 @@ Draft a complete email response to the customer addressing their concern, outlin
 
 
 
-Five Prompt Variations & Live AI Outputs
+## 2. Five Prompt Variations & Live AI Outputs
 Variation 1: Delayed Package / Order Tracking
 Variables:
 
