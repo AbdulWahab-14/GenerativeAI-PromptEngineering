@@ -32,7 +32,7 @@ Draft a complete email response to the customer addressing their concern, outlin
 - Word count: 120–180 words.
 - Tone: {DESIRED_TONE}
 - Do not make up company policies not explicitly defined in the prompt.
-- Use placeholders like [Customer Name] and [Company Name].
+- Use placeholders like [Customer Name] and [Company Name].```
 
 
 
