@@ -2,9 +2,10 @@ import os
 from google import genai
 from google.genai import types
 
-# Initialize client using environment variable
-client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+# 1. Initialize the Client (reads GEMINI_API_KEY from environment)
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE"))
 
+# 2. Define System Prompt & Persona Rules
 system_prompt = """
 You are "NeuroBot", an enthusiastic and friendly AI Support Assistant for Neurofive Solutions.
 
@@ -16,16 +17,18 @@ RULES:
 4. Maintain an encouraging and professional tone at all times.
 """
 
+# Configure model with system instruction
 config = types.GenerateContentConfig(
     system_instruction=system_prompt,
     temperature=0.3,
 )
 
+# 3. Test Messages (Including an off-topic test)
 test_messages = [
     "Hi, what is Neurofive Solutions?",
     "How can I start learning Generative AI as a beginner?",
     "My code is failing to push to GitHub, what should I check?",
-    "Who won the last FIFA World Cup?",
+    "Who won the last FIFA World Cup?",  # Tricky Off-Topic Test
     "Can you explain what a system prompt is in simple terms?"
 ]
 
@@ -41,3 +44,4 @@ for idx, user_msg in enumerate(test_messages, 1):
     )
     
     print(f"NeuroBot: {response.text.strip()}\n" + "-"*50)
+    
