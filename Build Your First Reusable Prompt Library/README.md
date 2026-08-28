@@ -1,13 +1,12 @@
 # Prompt Library v1 — Customer Support Email Generator
 
 ## Overview
-This prompt library provides a standardized, reusable prompt template designed to generate professional, empathetic, and resolution-focused customer support email responses.
+This prompt library provides a standardized, reusable prompt template designed to generate professional, empathetic, and resolution-focused customer support email responses. 
 
 ---
 
 ## 1. Reusable Prompt Template Architecture
 
-```text
 [ROLE]
 You are a Lead Customer Support Specialist known for tone control, empathy, clear communication, and customer retention.
 
@@ -34,6 +33,7 @@ Draft a complete email response to the customer addressing their concern, outlin
 - Do not make up company policies not explicitly defined in the prompt.
 - Use placeholders like [Customer Name] and [Company Name].
 
+---
 
 ## 2. Five Prompt Variations & Live AI Outputs
 
